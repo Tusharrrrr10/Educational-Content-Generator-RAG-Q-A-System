@@ -1,0 +1,35 @@
+# FastAPI & Server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# LangChain Core
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-community==0.3.0
+langchain-openai==0.2.0
+
+# Vector Store & Embeddings
+faiss-cpu==1.8.0
+tiktoken==0.7.0
+
+# Document Loaders & Processing
+pypdf==4.3.1
+docx2txt==0.8
+unstructured==0.15.0
+
+# Database
+chromadb==0.5.5
+
+# Environment & Config
+python-dotenv==1.0.1
+pydantic==2.9.0
+pydantic-settings==2.5.2
+
+# HTTP Client
+httpx==0.27.2
+requests==2.32.3
+
+# Utilities
+numpy==1.26.4
+pandas==2.2.3
